@@ -1,0 +1,7 @@
+# Local build output and tools; keep only the driver binary under x64.
+/x64/*
+!/x64/hid-inject-shared-input.sys
+
+# Previous layout and local root-level binary.
+/combined/
+/hid-inject-shared-input.sys
